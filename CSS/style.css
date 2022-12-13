@@ -33,7 +33,9 @@ body{
     border-bottom-right-radius: 10px;
     font-size: 11pt;
     text-align: center;
-    
+    bottom: 0;
+    position: sticky;
+    position: -webkit-sticky;
 }
 .button-input{
     width: 100px;

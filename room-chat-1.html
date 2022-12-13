@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Room Chat 1</title>
+        <Link rel="stylesheet" href="CSS/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src="JS/Data/DataChat/firebase-data.js"></script>
+
+<center>
+    <div class="display"><br>
+            <p class="text" id="messages"></p>
+    </div>
+    <form onsubmit="return sendMessage();" align="center">
+        <input class="input-message" id="message" placeholder="Enter Message" autocomplete="off"><br><br>
+        <input class="button-input" type="submit">
+    </form>
+</center>
+    </body>
+</html>

@@ -17,7 +17,7 @@ body{
 .display{
     overflow-y: scroll;
     width: 400px;
-    height: 500px;
+    height: 600px;
     margin-top: 5%;
     background: #292929;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;

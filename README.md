@@ -15,5 +15,5 @@ const firebaseConfig = {
   
   // initialize firebase
   firebase.initializeApp(firebaseConfig);
-
+Try this Project here https://hikineet17.github.io/chat-2.0/
 Follow me on Facebook HikiNeet
